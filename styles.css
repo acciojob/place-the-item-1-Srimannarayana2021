@@ -1,2 +1,33 @@
 
 /* Your CSS Code here. */
+.holder {
+    display: flex;
+    justify-content: space-between; /* Ensures spacing and edge alignment */
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+}
+
+.item {
+    width: 100px;
+    height: 100px;
+    /* text-align: center; */
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+	/* flex: 1 1 250px; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.item:nth-child(1) {
+    background-color: red;
+}
+
+.item:nth-child(2) {
+    background-color: blue;
+}
+
+.item:nth-child(3) {
+    background-color: green;
+}
