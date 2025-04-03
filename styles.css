@@ -3,6 +3,7 @@
 .holder {
     display: flex;
     justify-content: space-between; /* Ensures spacing and edge alignment */
+	flex-wrap:wrap;
     align-items: center;
     padding: 20px;
     width: 100%;
